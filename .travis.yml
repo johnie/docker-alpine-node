@@ -7,4 +7,4 @@ before_install:
   - docker build -t johnie/docker-alpine-node .
 
 script:
-  - docker run --rm -it johnie/docker-alpine-node node --version && npm --version
+  - docker run --rm -it johnie/docker-alpine-node node --version
